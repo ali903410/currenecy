@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: large;
+    font-family: cursive;
+    background-color: rgba(143, 18, 226, 0.952);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.parent{
+    height: 95vh;
+    width: 90vw;
+    background: linear-gradient(white, rgba(4, 4, 131, 0.884));
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 10px;
+    font-size: xx-large;
+    color: black;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+.child2{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+input {
+    height: 5vh;
+    width: 20vw;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    margin-top: 120px;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .child2 {
+        height: 30vh;
+        width: 80vw;
+        background-color: rgba(0, 0, 0, 0.705);
+        margin: auto;
+        margin-top: 10vh;
+        border-radius: 5px;
+    }
+    input {
+    height: 5vh;
+    width: 35vw;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 70px;
+    padding: 5px;
+    overflow: scroll;
+}
+h1{
+    margin: 5px;
+    font-size:large;
+    color: black;
+}
+
+p{
+    padding: 5px;
+    margin: 5px;
+}
+
+}
